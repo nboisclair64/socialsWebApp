@@ -9,6 +9,13 @@ h1{
 body{
     background-color: rgb(255, 255, 255);
 }
+
+@media screen and (orientation:landscape){
+    #logo{
+        width: 320px;
+        height: 320px;
+    }
+}
 @media (max-width:414px){
     .container-fluid{
         width: 220px;
